@@ -1,0 +1,135 @@
+body{
+  padding-top: 0px;
+}
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+div.popover.ng-isolate-scope.bottom.fade.in.bottom-right{
+  width: 400px!important;
+  padding-bottom: 10px!important;
+}
+.form-control.ng-invalid.ng-dirty {
+  border-color: #D0021B!important;
+}
+
+.form-control.ng-valid.ng-dirty {
+  border-color: #4A90E2!important;
+}
+.drop-zone { border: dotted 3px lightgray; }
+.zone-over { border: dotted 3px red; }
+.zone-over::before{
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  content: "\f1c5";
+  color: #0c84e4;
+  font-size: 30px;
+  padding-right: 0.5em;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+canvas {
+  background-color: #f3f3f3;
+  -webkit-box-shadow: 3px 3px 3px 0 #e3e3e3;
+  -moz-box-shadow: 3px 3px 3px 0 #e3e3e3;
+  box-shadow: 3px 3px 3px 0 #e3e3e3;
+  border: 1px solid #c3c3c3;
+  height: 100px;
+  margin: 6px 0 0 6px;
+}
+/*inicio file input*/
+
+.custom-file-input {
+  color: transparent;
+  width: 100%;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.custom-file-input:before {
+  content: 'Buscar imagen';
+  color: #fff;
+  display: inline-block;
+  background: rgb(52,125,219);
+  border: 1px solid rgb(52,125,219);
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin: auto;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-size: 10pt;
+  width: 75%;
+  text-align: center;
+}
+
+.custom-file-input:hover::before {
+  border-color: black;
+  outline: none;
+}
+
+.custom-file-input:active {
+  outline: none;
+}
+
+.custom-file-input:active::before {
+  outline: none;
+}
+
+
+.alert{
+  position: fixed;
+  right: 0px;
+  bottom: 0;
+  width: 50%;
+  z-index: 999999!important;
+}
+
+.alert > button{
+  margin: 0 10px;
+}
+
+.fondo-azul{
+  /*background-color: #2980b9;*/
+  background: rgba(73,155,234,1);
+  background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(16,89,166,1) 76%, rgba(16,89,166,1) 100%);
+}
+
+.margin-titulo{
+  margin: 40px;
+}
+.margin-seccion{
+  margin: 20px;
+}
+.label-intereses{
+  padding: 5px;
+  margin: 5px;
+  font-size: 10px;
+  border-radius: 30%;
+  float: left;
+  background-color: white;
+  border: 1px solid #bbbbbb;
+  color: #bbbbbb;
+}
+.texto-blanco{
+  color: white;
+}
+
+.borde-imagen{
+  padding: 3px;
+}
+.borde-imagen.verde{
+  border: 2px solid #2ecc71;
+}
+.borde-imagen.azul{
+  border: 2px solid #2980b9;
+}
+.borde-imagen.rojo{
+  border: 2px solid #c0392b;
+}
